@@ -1,0 +1,100 @@
+/* 
+Estilos da Base de Páginas
+*/
+
+nav{
+    background-color: forestgreen;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    padding: 0 0 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 1,5rem;
+    color: black;
+    list-style: none;
+    padding: 1rem;
+    background-color: forestgreen;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+h3 {
+    font-style: initial;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+}
+article div snap {
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+}
+
+article div p {
+    font-size: 3vw;
+    display: flex;
+    justify-content: right;
+}
+
+/* 
+Estilos da Página index.html
+*/
+.borda {
+    display: flex;
+    justify-content: center;
+}
+
+.banner2 {
+    display: flex;
+    width: 75vw;
+    margin: 1em;
+}
+
+.listaItem{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em;
+
+}
+
+.listaItem img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em;
+    width: 25vw;
+
+}
+
+.center{
+    justify-content: center;  
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox {
+    display: flex;
+    flex-flow: row;     
+    align-items: center;
+}
+/* 
+Estilos da Página contato.html
+*/
