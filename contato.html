@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contato</title>
     <link rel="stylesheet" href="./assets/css/style.css"> <!-- Link to tipo styles link da pasta -->
 </head>
 <body>
@@ -24,13 +24,16 @@
             <div>
                 <h2 class="center"> Mande uma mensagem</h2>
                 <form>
-                <label class="inbox"for="nome">Nome:</label>
-                <input type="text" id="nome">
+                <label class="inbox" for="nome">Nome:</label>
+                <input type="text" id="nome" onkeyup='validaNome()'>
+                <div id = 'txtNome'></div>
                 <label class="inbox" for="email">E-mail:</label>
-                <input type="email" id="email">
+                <input type="email" id="email" onkeyup='validaEmail()'>
+                <div id = 'txtEmail'></div>
                 <label class="inbox" for="assunto">Assunto:</label>
-                <textarea name="" id="" cols="60" rows="10"></textarea>
-                <button>Enviar</button>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup='validaAssunto()'></textarea>
+                <div id = 'txtAssunto'></div>
+                <button onclick="enviar">Enviar</button>
                 </form>
             </div>
         </div>
@@ -39,6 +42,8 @@
     <footer>
         Jhonathan Ferreira &copy
     </footer>
+    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
 
